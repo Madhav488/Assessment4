@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 class Node
 {
@@ -14,14 +14,14 @@ class Node
 
 class Stack
 {
-    private Node top; // top of the stack
+    private Node top; 
 
     public Stack()
     {
         top = null;
     }
 
-    // Push operation
+    
     public void Push(int data)
     {
         Node newNode = new Node(data);
@@ -30,7 +30,7 @@ class Stack
         Console.WriteLine($"{data} pushed to stack");
     }
 
-    // Pop operation
+  
     public void Pop()
     {
         if (top == null)
@@ -43,18 +43,17 @@ class Stack
         top = top.Next;
     }
 
-    // Peek / Top element
     public int Peek()
     {
         if (top == null)
         {
             Console.WriteLine("Stack is empty");
-            return -1; // or throw exception
+            return -1; 
         }
         return top.Data;
     }
 
-    // Display stack contents
+  
     public void Display()
     {
         if (top == null)
@@ -92,6 +91,6 @@ class Program
 
         stack.Pop();
         stack.Pop();
-        stack.Pop(); // extra pop to test underflow
+        stack.Pop();
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\Madhav Polakampalli\source\repos\Q10\bin\Debug\net8.0\Q10.exe
+C:\Users\Madhav Polakampalli\source\repos\Q10\bin\Debug\net8.0\Q10.deps.json
+C:\Users\Madhav Polakampalli\source\repos\Q10\bin\Debug\net8.0\Q10.runtimeconfig.json
+C:\Users\Madhav Polakampalli\source\repos\Q10\bin\Debug\net8.0\Q10.dll
+C:\Users\Madhav Polakampalli\source\repos\Q10\bin\Debug\net8.0\Q10.pdb
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.AssemblyInfoInputs.cache
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.AssemblyInfo.cs
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.csproj.CoreCompileInputs.cache
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.dll
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\refint\Q10.dll
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.pdb
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\Q10.genruntimeconfig.cache
+C:\Users\Madhav Polakampalli\source\repos\Q10\obj\Debug\net8.0\ref\Q10.dll
