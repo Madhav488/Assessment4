@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table 2 to 10</title>
+</head>
+<body>
+    <h2>Multiplication Table (2 to 10)</h2>
+    <pre id="tableOutput"></pre>
+
+    <script>
+        let output = "";
+        for (let i = 2; i <= 10; i++) {
+            output += `Table of ${i}:\n`;
+            for (let j = 1; j <= 10; j++) {
+                output += `${i} x ${j} = ${i * j}\n`;
+            }
+            output += "\n";
+        }
+        document.getElementById("tableOutput").textContent = output;
+    </script>
+</body>
+</html>

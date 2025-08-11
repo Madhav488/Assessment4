@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 960px;
+  height: 275px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-links {
+  margin: 15px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
