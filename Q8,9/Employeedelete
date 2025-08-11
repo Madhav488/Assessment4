@@ -1,0 +1,18 @@
+CREATE PROCEDURE DeleteEmployee
+    @employee_id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (SELECT 1 FROM employee WHERE employee_id = @employee_id)
+    BEGIN
+        DELETE FROM employee
+        WHERE employee_id = @employee_id;
+
+        PRINT 'Record deleted successfully.';
+    END
+    ELSE
+    BEGIN
+        PRINT 'No record found with the given Employee ID.';
+    END
+END;
